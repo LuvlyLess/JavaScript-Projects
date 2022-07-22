@@ -1,4 +1,4 @@
-let activePLayer = 'X';
+let activePlayer = 'X';
 let selectedSquares = [];
 
 function placeXOrO(squareNumber) {
