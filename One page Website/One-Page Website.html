@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Learning to Code </title>
+	<meta charset="utf-8">
+		<link href="../My-CSS-Design-ForOne-Page.css" rel="stylesheet" type="text/css">
+		<script src="JS/onepage.js"></script>
+</head>
+<body>
+<header>
+<p id="TopofPage" class="HeadFont">Anti-Cookie Monster</p>
+</header>
+	<!-- Nav -->
+	<div>
+		<div>
+			<ul>
+				<a href="#Top" id="Top"><li> Home </li></a>
+				<a href="#Bottom" id="Bottom"><li> Related Links </li></a>
+		</ul>
+	</div>
+	</div>
+<!-- End of Nav section -->
+
+
+<!-- Images Section-->
+<h2 style="text-align:center">Gallery</h2>
+
+<div class="row">
+  <div class="column">
+    <img src="images/Thumb/Thumbnail_1.jpg" alt="Image Unavailable" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/Thumb/20200907_135441.jpg" alt="Image Unavailable" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/Thumb/Thumbnail_3.jpg" alt="Image Unavailable" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="images/Thumb/Thumbnail_2.jpg"  alt="Image Unavailable" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="images/Thumb/Thumbnail_6.jpg" height="145px" alt="Image Unavailable" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="images/Thumb/Thumbnail_9.jpg" height="145px" alt="Image Unavailable" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="images/Thumb/Thumbnail_8.jpg" alt="Image Unavailable" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="images/Thumb/Thumbnail_5.jpg" alt="Image Unavailable" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="images/Thumb/Thumbnail_9.jpg" style="width:100%" onclick="currentSlide(1)" alt="anon">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/Thumb/Thumbnail_3.jpg" style="width:100%" onclick="currentSlide(2)" alt="Mountian peek">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/Thumb/Thumbnail_2.jpg" style="width:100%" onclick="currentSlide(3)" alt="Off-Roading Adventure">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/Thumb/Thumbnail_4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Beach Days">
+    </div>
+  </div>
+</div>
+
+<!--Form start -->
+<div id="formSection">
+			<form class="formstyle" action="" method="post">
+				First name: <input class="formInputs" value="First_Name"><br>
+				Last name: <input class="formInputs" name="Last_Name"><br>
+				Email Address: <input class="formInputs" type="email" name="Email"><br>
+				Password: <input class="formInputs" name="Phone Number"><br>
+					<div class="form-courses"> 
+						<label class="terms">Terms and Conditions</label>
+					</div>
+				<div>
+					<input type="submit" value="Submit">
+					</div>
+						</form>
+<!-- End of Form -->
+
+<!-- Video -->
+<video width="320" height="240" controls>
+  <source src="../movie.mp4" type="video/mp4">
+  <source src="../movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video><br>
+<a href="../Ottawa.html">Ottawa</a>
+
+<!-- End of video and Image Section -->
+
+<!-- Footer -->
+
+		<div id="BottomOfPage">
+			www.idonthaveAsite.com &nbsp;|&nbsp; &copy; 2022
+		</div>
+	<!-- END FOOTER -->
+		
+	</div>
+</body>
+</html>			
