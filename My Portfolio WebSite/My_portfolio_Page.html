@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <!-- Head -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Leslie Rothwell</title>
+        <link rel="shortcut icon" type="img/jpg" href="Images/logo-2582757_1280.png">
+        <link rel="stylesheet" type="text/css" href="CSS/portfolio.css">
+    </head>
+
+    <!-- Body -->
+    <body class="Background">   
+
+            <!-- Navbar -->
+            <div class="Navbar">
+                <a class="active" href="#Home">Home</a>
+                <!-- New section added -->
+                <a href="#Slideshow">Slideshow</a>
+                <a href="#About">About</a>
+                <a href="#GitHub">GitHub</a>
+                <!-- ondblclick functions added to the contact form -->
+                <a onclick="openForm()" ondblclick="closeForm()" class="contact">Contact</a>
+            </div>
+
+            <!-- Background video mp4 -->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="Images/blackandgrey.mp4"  type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Leslie.IO</h1>
+            <strong>
+                <p class="center">
+                    <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
+                        <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
+                        <br>field of battle and to command such unswervingly dutiful actors or troops.
+                    </q>
+                    <br> - Joseph Weizenbaum<br>
+                    <br>
+                    My name is leslie. Welcome to my portfolio website. On it, i will tell you about my background and experience.
+                    <br>
+                    <br> Thank You for stopping by enjoy!
+                </p>
+            </strong>
+        </div>
+
+        <!-- Slideshow section added -->
+        <div id="Slideshow">
+            <div id="Slideshow_Background"> 
+                <div id="Slideshow_Container">
+
+
+                    <!-- Slide 1 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="Images/portfolio-site-image-of-me.jpg" alt="Image Unavailable">
+                        <div class="text">I'm available to assist you on your project!</div>
+                    </div>
+
+                    
+                    <!-- Slide 2 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="Images/Wavy_Tech-01_Single-07.jpg" alt="HTML, CSS, and JS logos"> 
+                        <div class="text">I am a Student  software developer,<br> trained in:<br>HTML, CSS, JavaScript,</div>
+                    </div>
+
+
+                    <!-- Slide 3 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="Images/Wavy_Tech-09_Single-08.jpg" alt="Python logo">
+                        <div class="text">the popular programming language Python,</div>
+                    </div>
+
+
+                    <!-- Slide 4 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="Images/web-development-4202909_640.png" alt="C# logo">
+                        <div class="text">C#, .NET Framework, ASP.NET, MVC, </div>
+                    </div>
+
+
+                    <!-- Slide 5 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="Images/cloud-1835333_640.png" alt="SQL logo"> 
+                        <div class="text">back end development, databases and SQL.</div>
+                    </div>
+
+
+                    <!-- Slide 6 of 6 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="Images/20210726_201956_05.jpg" alt="Image Unavailable"> 
+                        <div class="text"><a class="white-text contact" onclick="openForm()">Contact me now!</a></div> 
+                    </div>
+                    <!-- Previous and next buttons -->
+                    <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br> <!-- Adds a space between the slideshow images -->
+
+                <!-- Slideshow dots  -->
+                <div style="text-align: center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(4)"></span> 
+                    <span class="dot" onclick="currentSlide(5)"></span> 
+                    <span class="dot" onclick="currentSlide(6)"></span> 
+                </div>
+            </div>
+        </div>
+
+        <!-- About section -->
+        <div class="Row" id="About">
+            <!-- Left column -->
+            <div class="Column_2">
+                <img src="Images/contact-us-2993000_1920.jpg" alt="Replace with a picture of your choosing">
+            </div>
+            <!-- Right column -->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p class="About">
+                    I'm a software developer who loves to code. I started to code on my own, and found something I enjoyed doing. I attended a bootcamp focused on web development, where i quickly picked up the the project based learning curriculum, so 
+                    I decided to continue learning independently through online courses, and attend school to further my skills.
+                    <br>
+                    <br>I am a graduate of AOLCC <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. 
+                    <br>
+                    <br>I am a Developer &amp; Digital designer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!-- GitHub section -->
+        <div class="Row" id="GitHub">
+            <!-- Left column -->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p class="center">You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/LuvlyLess" target="_blank">My Github</a></p>
+				Other projects in progress include Non Profit 
+					<a href="https://kentharrisonfoundation.com/" target="_blank">
+					Kentharrisonfoundatiom.com</a> Web &amp; Logo design.
+					<br>
+						<br>	
+					<a href="#">C.R.Media</a> Multimedia Digital Portfolio   
+                </p>
+            </div>
+            <!-- Right column -->
+            <div class="Column_2">
+                <a href="https://github.com/the-tech-academy" target="_blank" ><img src="Images/logo-2582757_1280.png" alt="Image Unavailable"></a>
+            </div>
+        </div>
+
+        <!-- Contact form -->
+        <div id="Contact">
+        <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
+        <div class="form-popup" id="myForm">
+                <form action="https://formspree.io/f/xjvlqobl" method="POST" class="form-container"> 
+                    <h1>Contact</h1>
+                    <label for="name"><b>Name</b></label>
+                    <input type="text" placeholder="Name" name="name" required>
+                    <label for="phone"><b>Phone</b></label>
+                    <input type="text" placeholder="Phone number" name="phone">
+                    <label for="email"><b>Email</b></label>		
+                    <input type="text" placeholder="Email address" name="email" required>
+                    <label for="message"><b>Message</b></label>
+                    <input type="text" placeholder="Message" name="message">
+        
+                    <button type="submit" class="btn">SUBMIT</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
+                </form>
+        </div>
+        </div>
+        
+        <!-- Footer section -->
+        <footer>
+                <p class="center"> Leslie-Rothwell, Student@ <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy&copy </a></p><br>
+        </footer>
+        <script src="JS/portfolio.js"></script>
+    </body>
+</html>
